@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/TxtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09/12/2003"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:id="@+id/TxtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TxtTitle"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingTop="10dp" />
+
+        <ImageView
+            android:id="@+id/ImgApod"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:id="@+id/TxtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="TxtDescription"
+            android:textSize="16sp"
+            android:paddingTop="10dp" />
+    </LinearLayout>
+</ScrollView>
